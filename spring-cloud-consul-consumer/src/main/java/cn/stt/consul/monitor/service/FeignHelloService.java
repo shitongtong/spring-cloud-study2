@@ -1,4 +1,4 @@
-package cn.stt.consul.consumer.service;
+package cn.stt.consul.monitor.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;

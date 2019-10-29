@@ -1,4 +1,4 @@
-package cn.stt.consul.consumer.controller;
+package cn.stt.consul.monitor.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
