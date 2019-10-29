@@ -1,4 +1,4 @@
-package cn.stt.consul.monitor;
+package cn.stt.consul.zuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

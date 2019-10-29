@@ -1,4 +1,4 @@
-package cn.stt.consul.monitor.controller;
+package cn.stt.consul.zuul.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package cn.stt.consul.monitor;
+package cn.stt.consul.zuul;
 
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 import org.springframework.boot.SpringApplication;
