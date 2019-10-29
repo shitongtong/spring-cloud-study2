@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Date 2019/10/29 8:21
  * @Version 1.0
  */
-@FeignClient("service-producer")
+//@FeignClient("service-producer")
+@FeignClient(name = "service-producer", fallback = FeignHelloHystrix.class)
 public interface FeignHelloService {
 
     @RequestMapping("/hello")
