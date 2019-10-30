@@ -1,4 +1,4 @@
-package cn.stt.consul.zuul.service;
+package cn.stt.consul.consumer.service;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;

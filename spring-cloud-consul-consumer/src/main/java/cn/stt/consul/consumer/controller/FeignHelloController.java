@@ -1,6 +1,6 @@
-package cn.stt.consul.zuul.controller;
+package cn.stt.consul.consumer.controller;
 
-import cn.stt.consul.zuul.service.FeignHelloService;
+import cn.stt.consul.consumer.service.FeignHelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

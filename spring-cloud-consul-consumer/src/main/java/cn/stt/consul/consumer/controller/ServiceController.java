@@ -1,4 +1,4 @@
-package cn.stt.consul.zuul.controller;
+package cn.stt.consul.consumer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
