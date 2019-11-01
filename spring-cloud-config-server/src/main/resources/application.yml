@@ -17,3 +17,14 @@ spring:
           #不用真实帐号也可以获取配置，不过相对有点慢
           username: username                                          # git仓库的账号
           password: password                                          # git仓库的密码
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
